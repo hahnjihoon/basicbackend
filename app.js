@@ -80,7 +80,7 @@ app.get("/favicon.ico", (req, res) => {
 // 서버 포트 설정 (8000번)
 const port = 8000;
 app.listen(port, () => {
-  console.log(`🚀 서버가 http://localhost:${port} 에서 돌아가는 중입니다.`);
+  console.log(`🚀 서버가 http://localhost:${port} 에서 돌아가는 중입니다. test`);
 });
 
 module.exports = app;
